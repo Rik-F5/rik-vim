@@ -1,4 +1,5 @@
 "定义快捷键的前缀，即<Leader>
+"test
 let mapleader=";"
 "开启文件类型侦测
 filetype on
