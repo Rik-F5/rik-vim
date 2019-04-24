@@ -182,3 +182,7 @@ let g:indentLine_enabled = 0
 let g:autopep8_disable_show_diff=1
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" add yaml stuffs
+au! BufNewFile,BufReadPost *.{yaml,yml} set filetype=yaml foldmethod=indent
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
