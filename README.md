@@ -9,6 +9,8 @@ vim +PluginInstall +qall
 
 add-apt-repository ppa:jonathonf/vim
 
+add-apt-repository ppa:longsleep/golang-backports
+
 apt update
 
 apt upgrade
