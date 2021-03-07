@@ -15,7 +15,7 @@ apt update
 
 apt upgrade
 
-apt install -y build-essential ctags cmake vim-nox python3-dev mono-complete golang nodejs default-jdk npm g++-8
+apt install -y build-essential ctags cmake vim-nox python3-dev mono-complete golang-go nodejs default-jdk npm g++-8
 
 
 
