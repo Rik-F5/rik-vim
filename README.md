@@ -11,6 +11,9 @@ add-apt-repository ppa:jonathonf/vim
 
 add-apt-repository ppa:longsleep/golang-backports
 
+sed -i 's/^deb/ded \[trusted=yes\] /g' /etc/apt/sources.list.d/*
+
+
 apt update
 
 apt upgrade
